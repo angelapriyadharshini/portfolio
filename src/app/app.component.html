@@ -1,0 +1,7 @@
+<div id="container">
+  <app-sidebar>
+  </app-sidebar>
+  <div [@fadeAnimation]="o.isActivated ? o.activatedRoute : ''" id="content">
+    <router-outlet #o="outlet"></router-outlet>
+  </div>
+</div>
