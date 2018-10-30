@@ -13,9 +13,11 @@ body{
     grid-template-columns: 50px auto;
     height: 100%;
     
+    
     #content {
-        padding: 30px 50px;
-
+        // padding: 30px 50px;
+        // box-sizing: border-box;
+        //width:calc(100%-50px);
         ul {
             list-style-type: none;
             margin:0;padding:0;
@@ -54,3 +56,13 @@ body{
 router-outlet ~ * {
     position: absolute;
   }
+
+#content{
+    position: relative;
+    overflow: auto;
+}
+
+#container{
+    max-height: 100vh;
+    overflow: hidden;
+}

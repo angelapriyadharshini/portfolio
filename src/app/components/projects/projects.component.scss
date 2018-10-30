@@ -1,17 +1,25 @@
 
 #project-content{
     overflow-y:auto;
-    max-height: 80vh;
+    // max-height: 80vh;
     box-sizing:border-box;
+    padding: 50px;
 }
 
-.card{
+.d{
     display: flex;
     flex-direction: column;
 }
 
 .cards{
+    padding:50px;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
     grid-gap: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.project-img{
+    width: 350px;
 }

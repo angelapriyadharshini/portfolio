@@ -1,10 +1,11 @@
 <div id="project-content">
-  <ul *ngFor="let project of projects" class="cards">
-    <li>
+  <ul class="cards">
+    <li *ngFor="let project of projects">
       <div class="card">
         <h2>{{project.title}}</h2>
+        <img class="project-img" src={{project.image}}>
         <p>{{project.description}}</p>
-      </div>
-    </li>
+    </div>
+  </li>
   </ul>
 </div>
