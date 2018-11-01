@@ -3,7 +3,9 @@
     <li *ngFor="let project of projects">
       <div class="card">
         <h2>{{project.title}}</h2>
-        <img class="project-img" src={{project.image}}>
+        <div class="image-container">
+          <img class="project-img" src={{project.image}}>
+        </div>
         <p>{{project.description}}</p>
     </div>
   </li>

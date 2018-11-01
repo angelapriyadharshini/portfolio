@@ -13,7 +13,8 @@
         "aute",
         "dolore"
       ],
-      "image": "/src/assets/images/no-image-placeholder.png"
+      "image": "/src/assets/images/no-image-placeholder.png",
+      "url": "/src/assets/images/no-image-placeholder.png"
     },
     {
       "id": "2",
@@ -28,7 +29,8 @@
         "culpa",
         "est"
       ],
-      "image": "/src/assets/images/no-image-placeholder.png"
+      "image": "/src/assets/images/no-image-placeholder.png",
+      "url": "/src/assets/images/no-image-placeholder.png"
     },
     {
       "id": "3",
@@ -43,7 +45,8 @@
         "nostrud",
         "incididunt"
       ],
-      "image": "/src/assets/images/no-image-placeholder.png"
+      "image": "/src/assets/images/no-image-placeholder.png",
+      "url": "/src/assets/images/no-image-placeholder.png"
     },
     {
       "id": "4",
@@ -58,7 +61,8 @@
         "cupidatat",
         "non"
       ],
-      "image": "/src/assets/images/no-image-placeholder.png"
+      "image": "/src/assets/images/no-image-placeholder.png",
+      "url": "/src/assets/images/no-image-placeholder.png"
     },
     {
       "id": "5",
@@ -73,7 +77,8 @@
         "esse",
         "voluptate"
       ],
-      "image": "/src/assets/images/no-image-placeholder.png"
+      "image": "/src/assets/images/no-image-placeholder.png",
+      "url": "/src/assets/images/no-image-placeholder.png"
     },
     {
       "id": "6",
@@ -88,7 +93,8 @@
         "incididunt",
         "aliquip"
       ],
-      "image": "/src/assets/images/no-image-placeholder.png"
+      "image": "/src/assets/images/no-image-placeholder.png",
+      "url": "/src/assets/images/no-image-placeholder.png"
     },
     {
       "id": "7",
@@ -103,7 +109,8 @@
         "magna",
         "sunt"
       ],
-      "image": "/src/assets/images/no-image-placeholder.png"
+      "image": "/src/assets/images/no-image-placeholder.png",
+      "url": "/src/assets/images/no-image-placeholder.png"
     }
   ]
 }

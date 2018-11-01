@@ -1,0 +1,69 @@
+Career Goal
+
+Full stack Java developer with 3 years of passionate coding experience. Focused on creating modern, responsive, highly interactive web applications. Actively seeking a position in a fast-growing team where mutual growth truly happens.
+
+Seeking the position of a Full Stack Developer to further enhance organizational worth owing to my knowledge in HTML, CSS, Node.js, Github, JavaScript, Ajax, JSON and JQuery.
+Technical Skills
+Outstanding knowledge of programming languages:
+Java, HTML5
+MySQL, PHP
+JavaScript
+Efficient and effective in utilizing technologies:
+
+MS Office Suite
+MVC Framework
+Eclipse, SVN
+High proficiency with web services:
+
+REST
+SOAP
+Adept with front end technologies:
+
+Ajax, CSS
+JQuery
+JS based frameworks
+Thorough with unit test frameworks:
+
+QUnit
+PhantomJS
+Immense potential to utilize tools like:
+
+Github
+Pivotal Tracker
+Homebrew
+Database administration expertise:
+
+MySQL
+NoSQL
+PostgreSQL
+Vast capabilities to:
+
+Apply methods for latency improvement and performance optimization
+Implement object oriented design and best practices
+Relevant Experience
+Full Stack Developer
+CloudHealth Technologies	January 2012 � Present
+Towanda, PA
+Coordinated with software engineering teams for development of technical documentation.
+Implemented procedures for creation of wireframes and prototypes for new user interfaces.
+Assisted in designing and development of relational databases for supporting back-end designs.
+Formulated procedures for implementation of SEO with Google Webmaster Tools.
+Provided technical assistance for development and deployment of large scale sites.
+Supported technical team members in development of functional and visual user interfaces.
+Executed processes for integration of program code with content management systems.
+Participated in continuous learning of web development methods and UI designing trends.
+Full Stack Developer
+Lithium Technologies	November 2010 � January 2012
+San Francisco, CA
+Assisted in designing, architecture and development of large scale web applications.
+Coordinated with other technical teams for development of portal solutions to support API.
+Provided technical assistance for overall development with Ruby on Rails programs.
+Supported technical team members for architecture and development of applications with CSS and HTML.
+Implemented procedures for identification and resolution of technical problems.
+Executed effective processes for development of automated controls for efficiency.
+Formulated procedures for different activities such as input validation and user tracking.
+Participated in testing, development, testing and debugging of new capabilities and systems.
+Educational Background
+Bachelor�s Degree in Computer Science
+Paul Quinn College	August 2006 � May 2010
+Dallas, TX

@@ -8,6 +8,7 @@ export interface IProject {
   description: string;
   builtwith: string[];
   image?: string;
+  url:string;
 }
 
 @Injectable({

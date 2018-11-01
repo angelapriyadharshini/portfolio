@@ -20,6 +20,15 @@
     position: relative;
 }
 
-.project-img{
+.image-container{
     width: 350px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-img{
+    bottom: 0;
+    width: inherit;
+    position: absolute;
 }

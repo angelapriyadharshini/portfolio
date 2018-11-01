@@ -1,44 +1,58 @@
 {
-    "id": "1",
-    "title": "Rollins Sharp",
-    "paragraph-1": "Consectetur nisi ad officia cillum laboris excepteur amet adipisicing aute fugiat proident do magna consequat. Amet eu eiusmod sit commodo elit aute qui irure consectetur amet duis. Elit nisi sunt laboris occaecat irure exercitation quis.\r\n",
-    "paragraph-2": "Consectetur nisi ad officia cillum laboris excepteur amet adipisicing aute fugiat proident do magna consequat. Amet eu eiusmod sit commodo elit aute qui irure consectetur amet duis. Elit nisi sunt laboris occaecat irure exercitation quis.\r\n",
-    "paragraph-3": "Consectetur nisi ad officia cillum laboris excepteur amet adipisicing aute fugiat proident do magna consequat. Amet eu eiusmod sit commodo elit aute qui irure consectetur amet duis. Elit nisi sunt laboris occaecat irure exercitation quis.\r\n",
-    "languages": [
-      "sint",
-      "adipisicing",
-      "excepteur",
-      "nostrud",
-      "do",
-      "aute",
-      "bonito"
-    ],
-    "frameworks": [
-        "sint",
-        "adipisicing",
-        "excepteur",
-        "nostrud",
-        "do",
-        "aute",
-        "bonito"
-      ],
-      "languages": [
-        "sint",
-        "adipisicing",
-        "excepteur",
-        "nostrud",
-        "do",
-        "aute",
-        "bonito"
-      ],
-      "languages": [
-        "sint",
-        "adipisicing",
-        "excepteur",
-        "nostrud",
-        "do",
-        "aute",
-        "bonito"
-      ],
-      "image": "/src/assets/images/no-image-placeholder.png"
-  }
+  "firstname": "Angela",
+  "lastname": "Amarapala",
+  "summary-1": "I am a Graduate FullStack developer with 3 years of passionate coding experience.",
+  "summary-2": "Focused on creating modern, responsive, highly interactive web applications. My favorite ingredients are Java, Angular, MySQL with Spring, Hibernate, Apache Tomcat and Maven.",
+  "summary-3": "I like to get busy with coding. However, I manage to make some time for Painting, Playing the Guitar, Traveling, Baking cakes, Reading some nice books.",
+  "backend": [
+    "Java",
+    "C#",
+    {
+      "frameworks": [
+        "Spring",
+        "Hibernate",
+        "Entity Framework"
+      ]
+    }
+  ],
+  "frontend": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    {
+      "frameworks": [
+        "Angular",
+        "Bootstrap",
+        "AngularJS",
+        "JQuery"
+      ]
+    }
+  ],
+  "dbskills": [
+    "MySQL",
+    "MSSQL"
+  ],
+  "versioncontrol": [
+    "GitHub",
+    "GitLab",
+    "Visual Studio TFS"
+  ],
+  "apps": [
+    "Eclipse",
+    "Netbeans",
+    "VS Code",
+    "Visual Studio 2015/2017",
+    "Adobe Photoshop",
+    "Adobe Illustrator"
+  ],
+  "others": [
+    "JUnit",
+    "Apache Maven",
+    "Apache Tomcat",
+    "Microsoft IIS",
+    "Wordpress",
+    "XAMPP",
+    "WAMP"
+  ],
+  "image": "/src/assets/images/no-image-placeholder.png"
+}
