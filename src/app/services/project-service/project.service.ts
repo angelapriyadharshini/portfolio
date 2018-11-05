@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http'
+import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 export interface IProject {
-  id: number,
+  id: number;
   title: string;
   description: string;
-  builtwith: string[];
+  tags: string[];
   image?: string;
-  url:string;
+  url: string;
 }
 
 @Injectable({
@@ -16,14 +16,13 @@ export interface IProject {
 })
 export class ProjectService {
 
-
   constructor(private http: HttpClient) {
     this.getProjects().subscribe(data => {
-      console.log(data)
-    })
+      console.log(data);
+    });
   }
 
   public getProjects(): Observable<any> {
-    return this.http.get("./assets/json/project.json")
+    return this.http.get('./assets/json/project.json');
   }
 }

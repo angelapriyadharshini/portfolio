@@ -9,13 +9,14 @@ import { ProjectService, IProject } from '../../services/project-service/project
 })
 export class ProjectsComponent implements OnInit {
   projects: IProject[] = [];
+  tags: string[];
 
   constructor(private projectService: ProjectService) { }
 
   ngOnInit() {
     this.projectService.getProjects().subscribe(data => {
-      this.projects = data.projects;
-      console.log(this.projects);
-    })
+      this.projects = data;
+      console.log(data.tags);
+    });
   }
 }

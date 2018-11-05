@@ -1,3 +1,5 @@
+$card-padding: 50px;
+
 
 #project-content{
     overflow-y:auto;
@@ -12,16 +14,16 @@
 }
 
 .cards{
-    padding:50px;
+    padding:$card-padding !important;
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
-    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-gap: 30px;
     overflow: hidden;
     position: relative;
 }
 
 .image-container{
-    width: 350px;
+    width: calc(300px-50px);
     height: 250px;
     position: relative;
     overflow: hidden;
@@ -29,6 +31,20 @@
 
 .project-img{
     bottom: 0;
-    width: inherit;
-    position: absolute;
+    width: 100%;
+    position: relative;
+}
+
+.description{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.tag{
+    border: none;
+    color: rgba(0,0,0,.68);
+    font-size: 14px;
+    background: rgba(0,0,0,.05);
+    border-radius: 5px;
+    padding: 0 5px;
 }
