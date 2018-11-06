@@ -1,6 +1,6 @@
 nav {
     background: #2B2532;
-    height: 65px;
+    height: 50px;
     padding: 0 120px;
     ul {
         padding: 0;
@@ -14,8 +14,8 @@ nav {
             display: inline-block;
             vertical-align: middle;
             margin: 0;
-            padding: 15px 10px;
-            font-size: 22px;
+            padding: 10px;
+            font-size: 20px;
             // height: inherit;
             a {
                 font-family: 'Open Sans Condensed', sans-serif;
@@ -26,13 +26,8 @@ nav {
 
                 // text-orientation: sideways;
                 div{
-                    width: 85px;
-                    // height: 65px;
-                    // background: rgba(255, 255, 255, 0.2);
-                    // padding: 10px;
+                    width: 65px;
                     text-align: center;
-                    // display: flex;
-                    // border-radius: 0 7px 7px 0;
                     filter:drop-shadow( 2px 2px 2px rgba(0, 0, 0, .7));
                     transition:all 0.5s ease;
                 }
@@ -48,12 +43,16 @@ nav {
 }
 .bottom-nav{
     position: relative;
+    padding: 0 5px !important;
     // display: inline-block;
     float: right;
+    li{
+        padding:10px 5px !important;
+    }
     li .li-icon{
-        // padding: 5px 10px;
+        display: inline-block;
         span{
-            padding: 15px;
+            // padding: 10px;
             display: block;
         }
     }

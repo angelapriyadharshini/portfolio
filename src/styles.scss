@@ -14,19 +14,14 @@ body{
     font-weight: 300;
     line-height: 1.44444;
     // font-family: 'Montserrat','sans-serif';
-    height: 100vh;
+    height: 100%;
 }
 
 #container{
-    // display: grid;
-    // grid-template-columns: 50px auto;
-    height: 100%;
-    
-    
+
     #content {
-        padding: 50px 120px;
-        // box-sizing: border-box;
-        //width:calc(100%-50px);
+        padding: 50px 120px !important;
+        box-sizing: border-box;
         grid-template-columns: 50px auto;
         // background: #fff;
         ul {
@@ -63,13 +58,11 @@ body{
     }
 }
 
-// router-outlet ~ * {
-//     position: absolute;
-//   }
-
+router-outlet ~ * {
+    position: absolute;
+  }
 // #content{
-//     position: relative;
-//     overflow: auto;
+//     // position: relative;
 // }
 
 // #container{

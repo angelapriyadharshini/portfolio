@@ -6,12 +6,14 @@ import {
     query
 } from '@angular/animations';
 
+// import {position } from '@angular/core'
+
 export const fadeAnimation = trigger('fadeAnimation', [
     // The '* => *' will trigger the animation to change between any two states
     transition('*=>*', [
         query(
             ':enter',
-            [style({ opacity: 0 })],
+            [style({ opacity: 0})],
             { optional: true }
         ),
         query(

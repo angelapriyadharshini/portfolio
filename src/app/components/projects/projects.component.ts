@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProjectService, IProject } from '../../services/project-service/project.service';
+import { fadeAnimation } from '../../animations';
 
 
 @Component({
