@@ -1,8 +1,46 @@
-.name{
-    padding: 5px 10px;
+// .name{
+//     padding: 5px 10px;
+//     background: #fff;
+//     border-radius: 10px;
+//     position: relative;
+//     display:block;
+//     color: #af80d3;
+// }
+
+.content-body{
+    overflow-y:auto;
+    box-sizing:border-box;
+    padding: 30px !important;
     background: #fff;
-    border-radius: 10px;
+    border-radius: 3px;
+    // height: auto;
     position: relative;
-    display:block;
-    color: #af80d3;
+    // display: inline-grid;
+    width: 81vw;
+    margin-bottom: 50px;
+}
+
+.profile-box{
+width: 100%;
+}
+.profile-1{
+    width: 50%;
+    display: inline-block;
+}
+.profile-2{
+    padding: 30px;
+    width: calc(50% - 60px);
+    display: inline-block;
+    position: absolute;
+    color: #2B2532;
+}
+
+.name{
+    color:#2B2532;
+    display: inline-block;
+    margin: 0;
+    font-weight: bold;
+}
+.text-suffix{
+    display: inline-block;
 }

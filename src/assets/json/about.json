@@ -1,6 +1,15 @@
 {
   "firstname": "Angela",
   "lastname": "Amarapala",
+  "title":"Full Stack Developer",
+  "stack": [
+    "Java",
+    " Spring",
+    " Hibernate",
+    " Angular",
+    " Maven",
+    " MySQL"
+  ],
   "summary-1": "I am a Graduate FullStack developer with 3 years of passionate coding experience.",
   "summary-2": "Focused on creating modern, responsive, highly interactive web applications. My favorite ingredients are Java, Angular, MySQL with Spring, Hibernate, Apache Tomcat and Maven.",
   "summary-3": "I like to get busy with coding. However, I manage to make some time for Painting, Playing the Guitar, Traveling, Baking cakes, Reading some nice books.",

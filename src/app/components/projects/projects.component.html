@@ -1,11 +1,11 @@
-<div id="project-content">
+<div class="content-body">
   <ul class="cards">
     <li class="card" *ngFor="let project of projects">
       <div>
         <div class="image-container">
           <img class="project-img" src={{project.image}}>
         </div>
-        <h2 class="project-title">{{project.title}}</h2>
+        <h2 class="card-title">{{project.title}}</h2>
         <ul>
           <li class="tag-list" *ngFor="let tag of project.tags"><span class="tag">{{tag}}</span></li><!--
           -->

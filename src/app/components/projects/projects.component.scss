@@ -4,31 +4,17 @@ $main-color:#866a9c;
 $header:#9882AD;
 
 
-#project-content{
+.content-body{
     overflow-y:auto;
-    max-height: auto;
     box-sizing:border-box;
     padding: 30px !important;
     background: #fff;
     border-radius: 3px;
-    height: auto;
+    // height: auto;
     position: relative;
     // display: inline-grid;
     width: 81vw;
     margin-bottom: 50px;
-}
-
-.card{
-    background: #2B2532 !important;
-}
-
-.cards{
-    padding:$card-padding !important;
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(275px,1fr));
-    grid-gap: 30px;
-    overflow: hidden;
-    // position: relative;
 }
 
 .image-container{
@@ -44,10 +30,6 @@ $header:#9882AD;
     position: relative;
 }
 
-.project-title{
-    color: #D3C9DC;
-    font-size: 22px;
-}
 .description{
     font-size: 16px;
     text-align: justify;

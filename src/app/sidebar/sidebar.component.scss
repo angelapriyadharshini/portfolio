@@ -2,12 +2,14 @@ nav {
     background: #2B2532;
     height: 50px;
     padding: 0 120px;
+
     ul {
         padding: 0;
         margin: 0;
         position: relative;
         display: inline-block;
         height: inherit;
+        
         li {
             list-style-type: none;
             position: relative;
@@ -16,15 +18,13 @@ nav {
             margin: 0;
             padding: 10px;
             font-size: 20px;
-            // height: inherit;
+            
             a {
                 font-family: 'Open Sans Condensed', sans-serif;
                 color: #D3C9DC;
-                // display: block;
                 text-decoration: none;
                 text-transform: uppercase;
 
-                // text-orientation: sideways;
                 div{
                     width: 65px;
                     text-align: center;
@@ -33,9 +33,6 @@ nav {
                 }
             }
             .activated {
-                // border-bottom: rgba(255, 255, 255, 0.7) solid 5px;
-                //transform:  translate(1 px);
-                //position: relative;
                 transition:all 0.5s ease;
             }
         }
@@ -44,11 +41,12 @@ nav {
 .bottom-nav{
     position: relative;
     padding: 0 5px !important;
-    // display: inline-block;
     float: right;
+
     li{
         padding:10px 5px !important;
     }
+
     li .li-icon{
         display: inline-block;
         span{
@@ -64,69 +62,3 @@ nav {
 .active{
     background: rgba(255, 255, 255, 0.2)
 }
-
-// nav {
-//     background: #866a9c;
-//     height: 50px;
-// width: 100%;
-//     ul {
-//         padding: 0;
-//         margin: 0;
-//         li {
-//             display: inline-block;
-//             list-style-type: none;
-//             a {
-//                 color: rgb(255, 255, 255);
-//                 // display: block;
-//                 // writing-mode: vertical-rl;
-//                 text-decoration: none;
-//                 text-transform: uppercase;
-//                 // text-orientation: sideways;
-//                 div{
-//                     height: 65px;
-//                     background: rgba(255, 255, 255, 0.2);
-//                     padding: 10px;
-//                     text-align: left;
-//                     justify-content:center;
-//                     // display: flex;
-//                     border-radius: 0 7px 7px 0;
-//                     filter:drop-shadow( 2px 2px 2px rgba(0, 0, 0, .7));
-//                     transition:all 0.5s ease;
-//                 }
-//             }
-//                     .activated {
-//                         //background-color: #00a8ff;
-//                         border-radius: 0 7px 7px 0;
-//                         border-left: rgba(255, 255, 255, 0.7) solid 5px;
-//                         //transform:  translate(1 px);
-//                         //position: relative;
-//                         // width: 50px;
-//                         // height: 50px;
-//                         transition:all 0.5s ease;
-//                     }
-            
-//         }
-//     }
-//     .bottom-nav{
-//         // bottom: 0;
-//         position: absolute;
-//         display: block;
-//         li .li-icon{
-            
-//             padding: 5px 10px;
-//             span{
-//                 padding: 15px;
-//                 display: block;
-//             }
-//         }
-//     }   
-// }
-// .main-menu{
-//     padding: 2px 0;
-// }
-// .home{
-//     padding: 5px 10px;
-// }
-// .li-icon{
-//     filter:drop-shadow( 2px 2px 2px rgba(0, 0, 0, .7));
-// }
