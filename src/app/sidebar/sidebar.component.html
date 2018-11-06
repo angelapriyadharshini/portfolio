@@ -1,14 +1,14 @@
 <nav>
   <ul>
-    <li>
-      <a routerLink="home" routerLinkActive="activated"><img class="home li-icon" height="30" width="30" src="/src/assets/images/home.png"></a>
+    <li [ngClass]="{ 'active': homeActive.isActive}">
+      <a routerLink="home" routerLinkActive="activated" #homeActive="routerLinkActive"><img class="home li-icon" height="30" width="30" src="/src/assets/images/home.png"></a>
     </li>
-    <li class="main-menu">
+    <li class="main-menu" [ngClass]="{ 'active': aboutActive.isActive}">
       <a routerLink="about" routerLinkActive="activated" [routerLinkActiveOptions]="{exact:
-        true}"><div>About</div></a>
+        true}" #aboutActive="routerLinkActive"><div>About</div></a>
     </li>
-    <li class="main-menu">
-      <a routerLink="projects" routerLinkActive="activated"><div>Projects</div></a>
+    <li class="main-menu" [ngClass]="{ 'active': projectsActive.isActive}">
+      <a routerLink="projects" routerLinkActive="activated" #projectsActive="routerLinkActive"><div>Projects</div></a>
     </li>
     <li class="main-menu">
       <a routerLink="blog" routerLinkActive="activated"><div>Blog</div></a>

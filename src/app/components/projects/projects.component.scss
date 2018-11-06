@@ -1,22 +1,26 @@
-$card-padding: 50px;
+$black:#000;
+$card-padding: 20px;
+$main-color:#866a9c;
+$header:#9882AD;
 
 
 #project-content{
     overflow-y:auto;
     // max-height: 80vh;
     box-sizing:border-box;
-    padding: 50px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 3px;
 }
 
-.d{
-    display: flex;
-    flex-direction: column;
+.card{
+    background: #2B2532 !important;
 }
 
 .cards{
     padding:$card-padding !important;
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(275px,1fr));
     grid-gap: 30px;
     overflow: hidden;
     position: relative;
@@ -35,6 +39,10 @@ $card-padding: 50px;
     position: relative;
 }
 
+.project-title{
+    color: #D3C9DC;
+    font-size: 22px;
+}
 .description{
     font-size: 16px;
     text-align: justify;
@@ -42,9 +50,20 @@ $card-padding: 50px;
 
 .tag{
     border: none;
-    color: rgba(0,0,0,.68);
+    color:$black;
     font-size: 14px;
+    font-weight: 400;
     background: rgba(0,0,0,.05);
+    padding: 1px 5px;
+    width: fit-content;
     border-radius: 5px;
-    padding: 0 5px;
+}
+
+.tag-list{
+    box-shadow: none !important;
+    border-radius: 5px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right:5px;
 }

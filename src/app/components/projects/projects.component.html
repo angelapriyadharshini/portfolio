@@ -1,15 +1,16 @@
 <div id="project-content">
   <ul class="cards">
-    <li *ngFor="let project of projects">
-      <div class="card">
+    <li class="card" *ngFor="let project of projects">
+      <div>
         <div class="image-container">
           <img class="project-img" src={{project.image}}>
         </div>
-        <h2>{{project.title}}</h2>
+        <h2 class="project-title">{{project.title}}</h2>
         <ul>
-          <li *ngFor="let tag of project.tags"><span class="tag">{{tag}}</span></li>
+          <li class="tag-list" *ngFor="let tag of project.tags"><span class="tag">{{tag}}</span></li><!--
+          -->
         </ul>
-        <p class="description">{{project.description}}</p>
+        <!-- <p class="description">{{project.description}}</p> -->
     </div>
   </li>
   </ul>
