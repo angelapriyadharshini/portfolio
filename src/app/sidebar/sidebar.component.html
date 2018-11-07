@@ -1,20 +1,20 @@
 <nav>
   <ul>
-    <li [ngClass]="{ 'active': homeActive.isActive}">
+    <li [ngClass]="{'active': homeActive.isActive}">
       <a routerLink="home" routerLinkActive="activated" #homeActive="routerLinkActive"><img class="home li-icon" height="30" width="30" src="/src/assets/images/home.png"></a>
     </li>
-    <li class="main-menu" [ngClass]="{ 'active': aboutActive.isActive}">
+    <li class="main-menu" [ngClass]="{'active': aboutActive.isActive}">
       <a routerLink="about" routerLinkActive="activated" [routerLinkActiveOptions]="{exact:
         true}" #aboutActive="routerLinkActive"><div>About</div></a>
     </li>
-    <li class="main-menu" [ngClass]="{ 'active': projectsActive.isActive}">
+    <li class="main-menu" [ngClass]="{'active': projectsActive.isActive}">
       <a routerLink="projects" routerLinkActive="activated" #projectsActive="routerLinkActive"><div>Projects</div></a>
     </li>
-    <li class="main-menu">
-      <a routerLink="blog" routerLinkActive="activated"><div>Blog</div></a>
+    <li class="main-menu" [ngClass]="{'active': blogActive.isActive}">
+      <a routerLink="blog" routerLinkActive="activated" #blogActive="routerLinkActive"><div>Blog</div></a>
     </li>
-    <li class="main-menu">
-      <a routerLink="contact" routerLinkActive="activated"><div>Contact</div></a>
+    <li class="main-menu" [ngClass]="{'active': contactActive.isActive}">
+      <a routerLink="contact" routerLinkActive="activated" #contactActive="routerLinkActive"><div>Contact</div></a>
     </li>
   </ul>
   <ul class="bottom-nav">

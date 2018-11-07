@@ -1,17 +1,29 @@
 <div class="content-body">
-  <div class="profile-box">
-    <div class="profile-1"><img class="project-img" src={{about.image}}></div>
-    <div class="profile-2 ">
-      <h2 class="text-suffix">I'm &nbsp;</h2><h1 class="name">BLA{{about.first}} {{about.last}}</h1>
-      <h2 class="" style="margin:0">{{about.titl}}bla bla bla</h2>
-      <hr>
-      <br>
-      <span class="">Favorite stack: &nbsp;</span> <h2 class="name">{{about.stack}}</h2>
-    </div>
-  </div>
   <ul>
     <li>
-      <h2 class="name">Name:</h2>
+      <div class="profile-box">
+        <div class="profile-1"><img class="" width="100%" src={{about.image}}></div>
+        <div class="profile-2 ">
+          <h2 class="text-suffix">I'm &nbsp;</h2>
+          <h1 class="name">BLA{{about.first}} {{about.last}}</h1>
+          <h2 class="" style="margin:0">{{about.titl}}bla bla bla</h2>
+          <!-- <div style="border:solid 1px #ddd;width: "></div> -->
+          <hr>
+          <br>
+          <span class="">Favorite stack: &nbsp;</span> <h2 class="name">{{about.stack}}</h2>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="link-ribbon">
+        <ul class="link-box">
+            <li><a routerLink="codepen" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="/src/assets/images/codepen.png"></a></li>
+            <li><a routerLink="github" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="/src/assets/images/github.png"></a></li>
+            <li><a routerLink="linkedin" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="/src/assets/images/linkedin.png"></a></li>
+            <li><a routerLink="stackoverflow" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="/src/assets/images/stackoverflow.png"></a></li>
+            <li><a routerLink="twitter" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="/src/assets/images/twitter.png"></a></li>
+          </ul>
+      </div>
     </li>
   </ul>
 </div>
