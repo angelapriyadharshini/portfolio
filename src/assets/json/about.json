@@ -10,63 +10,55 @@
     " Maven",
     " MySQL"
   ],
-  "summary-1": "I am a Graduate FullStack developer with 3 years of passionate coding experience.",
-  "summary-2": "Focused on creating modern, responsive, highly interactive web applications. My favorite ingredients are Java, Angular, MySQL with Spring, Hibernate, Apache Tomcat and Maven.",
-  "summary-3": "I like to get busy with coding. However, I manage to make some time for Painting, Playing the Guitar, Traveling, Baking cakes, Reading some nice books.",
+  "summary1": "Hello! I am Angela Amarapala, a Graduate FullStack developer with 3 years of coding experience.",
+  "summary2": "Focused on creating modern, responsive, highly interactive web applications. Passionate about learning new technologies.",
+  "summary3": "I also manage to make some time for Painting, Playing the Guitar, Traveling, Baking cakes, Reading some nice books.",
   "backend": [
     "Java",
-    "C#",
-    {
-      "frameworks": [
-        "Spring",
-        "Hibernate",
-        "Entity Framework"
-      ]
-    }
+    " C# "
+  ],
+  "bframeworks": [
+    "Spring",
+    " Hibernate",
+    " Entity Framework "
   ],
   "frontend": [
     "JavaScript",
-    "HTML",
-    "CSS",
-    {
-      "frameworks": [
-        "Angular",
-        "Bootstrap",
-        "AngularJS",
-        "JQuery"
-      ]
-    }
+    " HTML",
+    " CSS"
+  ],
+  "fframeworks": [
+    "Angular",
+    " Bootstrap",
+    " AngularJS",
+    " JQuery"
   ],
   "dbskills": [
     "MySQL",
-    "MSSQL"
+    " MSSQL"
   ],
   "versioncontrol": [
-    "GitHub",
-    "GitLab",
-    "Visual Studio TFS"
+    "GitHub ",
+    " GitLab",
+    " Visual Studio TFS"
   ],
   "apps": [
     "Eclipse",
-    "Netbeans",
-    "VS Code",
-    "Visual Studio 2015/2017",
-    "Adobe Photoshop",
-    "Adobe Illustrator"
+    " Netbeans",
+    " VS Code",
+    " Visual Studio 2015/2017",
+    " Adobe Photoshop",
+    " Adobe Illustrator"
   ],
-  "others": [
+  "other": [
     "JUnit",
-    "Apache Maven",
-    "Apache Tomcat",
-    "Microsoft IIS",
-    "Wordpress",
-    "XAMPP",
-    "WAMP"
+    " Apache Maven",
+    " Apache Tomcat",
+    " Microsoft IIS",
+    " Wordpress",
+    " XAMPP",
+    " WAMP"
   ],
-  "image": "/src/assets/images/no-image-placeholder.png",
-  "codepen":"",
-  "github":"",
-  "linkedin":"",
-  "stackoverflow":"",
-  "twitter":""
+  "profileimage": "/src/assets/images/no-image-placeholder.png",
+  "cvlink":"https://www.dropbox.com/s/6w57utk65rv0d6c/Get%20Started%20with%20Dropbox.pdf?dl=0"
 }

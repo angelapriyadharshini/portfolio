@@ -9,7 +9,8 @@ import { AboutService, IAbout } from '../../services/about-service/about.service
 export class AboutComponent implements OnInit {
   about: IAbout[] = [];
 
-  constructor(private aboutService: AboutService) { }
+
+  constructor(private aboutService: AboutService ) { }
 
   ngOnInit() {
     this.aboutService.getAbout().subscribe(data => {

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ProjectService, IProject } from '../../services/project-service/project.service';
-import { fadeAnimation } from '../../animations';
 
 
 @Component({
@@ -17,7 +16,6 @@ export class ProjectsComponent implements OnInit {
   ngOnInit() {
     this.projectService.getProjects().subscribe(data => {
       this.projects = data;
-      console.log(data.tags);
     });
   }
 }
