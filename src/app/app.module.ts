@@ -12,6 +12,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { ProjectService } from './services/project-service/project.service'
 import { HttpClientModule } from '@angular/common/http';
+import { AboutService } from './services/about-service/about.service';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserAnimationsModule,
     HttpClientModule
   ],
-  providers: [BlogComponent, ProjectService],
+  providers: [BlogComponent, ProjectService, AboutService],
   bootstrap: [AppComponent]
 })
 
