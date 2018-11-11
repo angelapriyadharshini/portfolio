@@ -4,6 +4,42 @@
 }
 body,.content{
     overflow: hidden;
+    background: rgb(245,245,245);
+}
+
+.home-title{
+    font-family: "Open Sans Condensed", sans-serif;
+font-weight: 500;
+font-size: 5em;
+padding: 0px 35px 35px;
+}
+.slogan-wrapper{
+    display: table;
+  position: absolute;
+  height: calc(100% - 50px);
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.align-slogan{
+    text-align: center;
+    margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  padding: 20px 0;
+}
+
+.tag-style{
+    font-family: 'Architects Daughter', cursive;
+// font-family: 'Kalam', cursive;
+font-size: 1.5em;
+padding: 20px;
+}
+
+.slogan-box{
+    display: table-cell;
+    vertical-align: middle;
+    margin-bottom: 50px;
 }
 
 .dot {
@@ -40,7 +76,69 @@ body,.content{
 }
 
 .content{
-    height: calc(100vh);
+    height: calc(100vh - 50px);
     width: calc(100vw);
-    margin: -100px -120px;
+    // margin: -100px -120px;
+    position: relative;
+    z-index: 10;
 }
+
+.dot-animation-1 {
+    /* Some layout code… */
+    animation: xAxis 100s infinite linear;
+  //    -webkit-animation: xAxis 2.5s infinite cubic-bezier(0.02, 0.01, 0.21, 1);
+  //  animation: xAxis 5s infinite ease-in;
+  }
+  
+  .dot-animation-2 {
+    /*   dot */
+    animation: yAxis 100s infinite linear;
+  //    -webkit-animation: yAxis 2.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
+  //  animation: yAxis 5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
+  }
+  @-webkit-keyframes yAxis {
+      from { transform: rotate(0deg) translateX(150px)  translateZ(0) rotate(0deg); }
+      to   { transform: rotate(360deg) translateX(-150px) translateZ(0) rotate(-60deg); }
+  }
+  
+  @keyframes yAxis {
+    from { transform: rotate(0deg) translateX(-150px) translateZ(0) rotate(0deg); }
+      to   { transform: rotate(360deg) translateX(-150px) translateZ(0) rotate(-30deg); }
+  }
+  
+  @-webkit-keyframes xAxis {
+    from { transform: rotate(0deg) translateX(150px) translateZ(0) rotate(0deg); }
+      to   { transform: rotate(360deg) translateX(150px) translateZ(0) rotate(-360deg); }
+  }
+  
+  @keyframes xAxis {
+  //  50% {
+  //    -webkit-animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+  //    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+  //    -webkit-transform: translate(100px,50px);
+  //    transform: translate(100px,50px);
+  //  }
+      from { transform: rotate(0deg) translateX(150px) translateZ(0) rotate(0deg); }
+      to   { transform: rotate(360deg) translateX(150px) translateZ(0) rotate(-360deg); }
+  }
+  
+  .menu-item:focus{
+      color: #fff;
+      &:before {
+        animation: effect 0.8s ease-out;
+      }
+  }
+  @keyframes effect{
+      50% {
+      transform: scale(1.5, 1.5);
+      opacity: 0;
+    }
+    99% {
+      transform: scale(0.001, 0.001);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(0.001, 0.001);
+      opacity: 1;
+    }
+  }

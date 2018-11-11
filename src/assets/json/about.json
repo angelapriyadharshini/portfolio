@@ -4,10 +4,10 @@
   "title":"Full Stack Developer",
   "stack": [
     "Java",
-    " Spring",
+    " Spring Boot",
     " Hibernate",
     " Angular",
-    " Maven",
+    " Tomcat",
     " MySQL"
   ],
   "summary1": "Hello! I am Angela Amarapala, a Graduate FullStack developer with 3 years of coding experience.",
@@ -59,6 +59,6 @@
     " XAMPP",
     " WAMP"
   ],
-  "profileimage": "/src/assets/images/no-image-placeholder.png",
+  "profileimage": "/src/assets/images/IMG_8504.png",
   "cvlink":"https://www.dropbox.com/s/6w57utk65rv0d6c/Get%20Started%20with%20Dropbox.pdf?dl=0"
 }

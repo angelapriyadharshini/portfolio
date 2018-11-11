@@ -20,6 +20,7 @@ $titlefont:'Open Sans Condensed', sans-serif;
     padding: 30px !important;
     background: #fff;
     border-radius: 3px;
+    margin: 50px 130px;
     // height: auto;
     position: relative;
     // display: inline-grid;
@@ -29,6 +30,7 @@ $titlefont:'Open Sans Condensed', sans-serif;
 
 .profile-box{
 width: 100%;
+padding: 30px 0;
 }
 .profile-1{
     width: calc(30% - 30px);
@@ -68,7 +70,7 @@ width: 100%;
     width: 100%;
     li{
         display: inline-block;
-        padding: 10px 5px;
+        padding: 20px 5px;
         // background: rgba(255,255,255,0.2);
         a{
             vertical-align: middle;
