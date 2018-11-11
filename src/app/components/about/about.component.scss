@@ -5,6 +5,14 @@ $titlefont:'Open Sans Condensed', sans-serif;
     margin:0 -30px;
 }
 
+@mixin name{
+    color:#2B2532;
+    display: inline-block;
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
 // .name{
 //     padding: 5px 10px;
 //     background: #fff;
@@ -18,7 +26,7 @@ $titlefont:'Open Sans Condensed', sans-serif;
     overflow-y:auto;
     box-sizing:border-box;
     padding: 30px !important;
-    background: #fff;
+    background: #F5F5F5;
     border-radius: 3px;
     margin: 50px 130px;
     // height: auto;
@@ -45,11 +53,14 @@ padding: 30px 0;
 }
 
 .name{
-    color:#2B2532;
-    display: inline-block;
-    margin: 0;
-    font-weight: bold;
+    @include name();
+    text-transform: uppercase;
 }
+
+.stack{
+    @include name();
+}
+
 .text-suffix{
     display: inline-block;
 }
@@ -57,7 +68,7 @@ padding: 30px 0;
 .hrline{
     border-top: solid 1px #2B2532;
     width: 100%;
-    padding-bottom: 30px;
+    // padding-bottom: 30px;
 }
 
 .dark-card{

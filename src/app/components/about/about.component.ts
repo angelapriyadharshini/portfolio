@@ -7,7 +7,7 @@ import { AboutService, IAbout } from '../../services/about-service/about.service
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-  about: IAbout[] = [];
+  about: IAbout[];
 
 
   constructor(private aboutService: AboutService ) { }
@@ -15,8 +15,7 @@ export class AboutComponent implements OnInit {
   ngOnInit() {
     this.aboutService.getAbout().subscribe(data => {
       this.about = data;
-      console.log(data);
-    })
+    });
   }
 
 }

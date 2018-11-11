@@ -33,7 +33,7 @@ const routes: Routes = [
     canActivate: [BlogComponent],
     component: BlogComponent,
     data: {
-      externalUrl: "https://codepen.io/"
+      externalUrl: "https://codepen.io/apdharshini/"
     }
   },
   {
@@ -41,7 +41,7 @@ const routes: Routes = [
     canActivate: [BlogComponent],
     component: BlogComponent,
     data: {
-      externalUrl: "https://github.com/"
+      externalUrl: "https://github.com/angelapriyadharshini"
     }
   },
   {
@@ -49,7 +49,7 @@ const routes: Routes = [
     canActivate: [BlogComponent],
     component: BlogComponent,
     data: {
-      externalUrl: "https://linkedin.com/"
+      externalUrl: "https://www.linkedin.com/in/angela-amarapala/"
     }
   },
   {
@@ -57,7 +57,7 @@ const routes: Routes = [
     canActivate: [BlogComponent],
     component: BlogComponent,
     data: {
-      externalUrl: "https://stackoverflow.com/"
+      externalUrl: "https://stackoverflow.com/users/6284797/angela-amarapala"
     }
   },
   {
@@ -65,7 +65,7 @@ const routes: Routes = [
     canActivate: [BlogComponent],
     component: BlogComponent,
     data: {
-      externalUrl: "https://twitter.com/"
+      externalUrl: "https://twitter.com/apdharshi"
     }
   },
   {

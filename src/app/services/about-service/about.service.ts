@@ -4,12 +4,23 @@ import { Observable } from 'rxjs';
 
 
 export interface IAbout {
-  firstname: string,
-  lastname: string,
-  summary1: string,
-  summary2: string,
-  summary3: string,
-  backend: string[]
+  firstname: string;
+  lastname: string;
+  title:string;
+  stack:string[];
+  summary1: string;
+  summary2: string;
+  summary3: string;
+  backend: string[];
+  bframeworks:string[];
+  frontend:string[];
+  fframeworks:string[];
+  dbskills:string[];
+  versioncontrol:string[];
+  apps:string[];
+  other:string[];
+  profileimage:string;
+  cvlink:string;
 }
 
 @Injectable({

@@ -5,7 +5,7 @@
         <div class="image-container">
           <img class="project-img" src={{project.image}}>
         </div>
-        <h2 class="card-title">{{project.title}}</h2>
+        <a [href]=project.url target="_blank"><h2 class="card-title">{{project.title}}</h2></a>
         <ul>
           <li class="tag-list" *ngFor="let tag of project.tags"><span class="tag">{{tag}}</span></li><!--
           -->

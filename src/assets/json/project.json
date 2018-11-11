@@ -1,16 +1,17 @@
 [
     {
       "id": "1",
-      "title": "Rollins Sharp",
-      "description": "Consectetur nisi ad officia cillum laboris excepteur amet adipisicing aute fugiat proident do magna consequat. Amet eu eiusmod sit commodo elit aute qui irure consectetur amet duis. Elit nisi sunt laboris occaecat irure exercitation quis.\r\n",
+      "title": "I Love Karaikudi",
+      "description": "I Love Karaikudi is a blogging website. This website contains wonderful information about a beautiful Indian village named Karaikudi. This village is well-known for its culture, heritage and traditions.\r\n",
       "tags": [
-        "sint",
-        "adipisicing",
-        "excepteur",
-        "nostrud",
-        "do",
-        "aute",
-        "dolore"
+        "Java 8",
+        "Spring Boot",
+        "REST",
+        "Hibernate",
+        "MySQL",
+        "Angular 6",
+        "CSS3",
+        "Tomcat 9"
       ],
       "image": "/src/assets/images/no-image-placeholder.png",
       "url": "/src/assets/images/no-image-placeholder.png"
@@ -20,93 +21,26 @@
       "title": "Portfolio website",
       "description": "Aute esse nostrud eiusmod esse elit incididunt proident. Sunt nulla exercitation nulla occaecat culpa quis sint eu laborum esse anim. Dolor aliquip commodo nisi dolor. Nisi mollit aliqua exercitation et incididunt amet ex ut. Elit ea pariatur dolor deserunt occaecat cupidatat enim Lorem sit consectetur ex enim non. Occaecat irure mollit id ex cillum velit non elit excepteur enim irure deserunt. Excepteur do quis irure ullamco sunt voluptate velit irure enim irure laboris ipsum incididunt.\r\n",
       "tags": [
-        "Angular 6",
+        "TypeScript (Angular 6)",
         "CSS3",
-        "",
-        "pariatur",
-        "deserunt",
-        "culpa",
-        "est"
+        "HTML",
+        "JavaScript"
       ],
-      "image": "/src/assets/images/no-image-placeholder.png",
-      "url": "/src/assets/images/no-image-placeholder.png"
+      "image": "/src/assets/images/portfolio-image.png",
+      "url": "https://github.com/angelapriyadharshini/portfolio"
     },
     {
       "id": "3",
-      "title": "Nell Watson",
-      "description": "Incididunt fugiat eiusmod voluptate irure dolor qui. Nisi dolor do tempor est. Qui velit irure voluptate in consectetur est ullamco velit aute occaecat. Eiusmod sint labore enim excepteur mollit culpa enim aliquip magna proident tempor fugiat. Labore elit minim anim deserunt irure consectetur dolore deserunt. Incididunt dolore tempor mollit eiusmod dolor eiusmod. Laborum est deserunt incididunt Lorem esse.\r\n",
+      "title": "Online Test Application",
+      "description": "This is a Web Application developed for practicing online tests. This application contains a range of questions along with multiple choice answers. The test should be completed within the given time limit.\r\n",
       "tags": [
-        "magna",
-        "qui",
-        "ut",
-        "culpa",
-        "consectetur",
+        "Java 8",
+        "Spring MVC",
+        "Hibernate",
+        "MySQL",
+        "Tomcat 9",
         "nostrud",
         "incididunt"
-      ],
-      "image": "/src/assets/images/no-image-placeholder.png",
-      "url": "/src/assets/images/no-image-placeholder.png"
-    },
-    {
-      "id": "4",
-      "title": "Horn Cochran",
-      "description": "Excepteur ex dolor voluptate quis dolore qui adipisicing dolor amet labore duis veniam officia. Consectetur sint in ipsum fugiat nisi ullamco nulla ex duis eiusmod non. Cupidatat aute eiusmod elit qui dolor mollit ullamco nisi enim. Consectetur ex qui consequat sint veniam sint qui ut cupidatat.\r\n",
-      "tags": [
-        "sint",
-        "reprehenderit",
-        "cillum",
-        "culpa",
-        "deserunt",
-        "cupidatat",
-        "non"
-      ],
-      "image": "/src/assets/images/no-image-placeholder.png",
-      "url": "/src/assets/images/no-image-placeholder.png"
-    },
-    {
-      "id": "5",
-      "title": "Bentley Terry",
-      "description": "Magna adipisicing culpa commodo minim consectetur adipisicing reprehenderit officia ullamco sunt quis nostrud reprehenderit est. Excepteur duis tempor fugiat dolor exercitation irure dolor culpa ea aute. Veniam nulla enim elit est fugiat aute velit sunt occaecat consequat. Quis nostrud sunt aliqua Lorem incididunt incididunt id labore reprehenderit sit magna consequat dolor amet. Ut ullamco id minim quis consequat reprehenderit quis. Ullamco enim fugiat anim consectetur enim duis eu.\r\n",
-      "tags": [
-        "proident",
-        "esse",
-        "minim",
-        "fugiat",
-        "deserunt",
-        "esse",
-        "voluptate"
-      ],
-      "image": "/src/assets/images/no-image-placeholder.png",
-      "url": "/src/assets/images/no-image-placeholder.png"
-    },
-    {
-      "id": "6",
-      "title": "Rhonda Cash",
-      "description": "Occaecat in non amet voluptate aliquip deserunt ipsum culpa adipisicing. Voluptate officia non do incididunt laboris dolore dolor pariatur pariatur commodo. Nostrud qui eiusmod reprehenderit esse laboris sint laboris id.\r\n",
-      "tags": [
-        "culpa",
-        "duis",
-        "et",
-        "ipsum",
-        "dolore",
-        "incididunt",
-        "aliquip"
-      ],
-      "image": "/src/assets/images/no-image-placeholder.png",
-      "url": "/src/assets/images/no-image-placeholder.png"
-    },
-    {
-      "id": "7",
-      "title": "Jana Stafford",
-      "description": "Voluptate id enim occaecat minim. Lorem incididunt laborum mollit id. Elit ullamco irure laborum sit dolore sit veniam cillum commodo magna ad elit. Nulla sunt tempor exercitation Lorem reprehenderit non qui eiusmod aliquip commodo. Nisi duis sunt dolore mollit labore magna cupidatat cupidatat irure magna elit quis. Laboris do nisi excepteur laboris quis nostrud non duis fugiat proident laborum incididunt proident.\r\n",
-      "tags": [
-        "irure",
-        "aute",
-        "non",
-        "do",
-        "qui",
-        "magna",
-        "sunt"
       ],
       "image": "/src/assets/images/no-image-placeholder.png",
       "url": "/src/assets/images/no-image-placeholder.png"
