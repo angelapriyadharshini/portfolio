@@ -1,64 +1,66 @@
-{
-  "firstname": "Angela",
-  "lastname": "Amarapala",
-  "title":"Full Stack Developer",
-  "stack": [
-    "Java",
-    " Spring Boot",
-    " Hibernate",
-    " Angular",
-    " Tomcat",
-    " MySQL"
-  ],
-  "summary1": "Hello! I am Angela Amarapala, a Graduate FullStack developer with 3 years of coding experience.",
-  "summary2": "Focused on creating modern, responsive, highly interactive web applications. Passionate about learning new technologies.",
-  "summary3": "I also manage to make some time for Painting, Playing the Guitar, Traveling, Baking cakes, Reading some nice books.",
-  "backend": [
-    "Java",
-    " C# "
-  ],
-  "bframeworks": [
-    "Spring",
-    " Hibernate",
-    " Entity Framework "
-  ],
-  "frontend": [
-    "JavaScript",
-    " HTML",
-    " CSS"
-  ],
-  "fframeworks": [
-    "Angular",
-    " Bootstrap",
-    " AngularJS",
-    " JQuery"
-  ],
-  "dbskills": [
-    "MySQL",
-    " MSSQL"
-  ],
-  "versioncontrol": [
-    "GitHub ",
-    " GitLab",
-    " Visual Studio TFS"
-  ],
-  "apps": [
-    "Eclipse",
-    " Netbeans",
-    " VS Code",
-    " Visual Studio 2015/2017",
-    " Adobe Photoshop",
-    " Adobe Illustrator"
-  ],
-  "other": [
-    "JUnit",
-    " Apache Maven",
-    " Apache Tomcat",
-    " Microsoft IIS",
-    " Wordpress",
-    " XAMPP",
-    " WAMP"
-  ],
-  "profileimage": "/src/assets/images/IMG_8504.png",
-  "cvlink":"https://www.dropbox.com/s/1sl1sx0wg5hecba/Angela%20Amarapala%20-%20FullStack%20Developer.pdf?dl=0"
-}
+[
+  {
+    "firstname": "Angela",
+    "lastname": "Amarapala",
+    "title": "Full Stack Developer",
+    "stack": [
+      "Java",
+      " Spring Boot",
+      " Hibernate",
+      " Angular",
+      " Tomcat",
+      " MySQL"
+    ],
+    "summary1": "Hello! I am Angela Amarapala, a Graduate FullStack developer with 3 years of coding experience.",
+    "summary2": "Focused on creating modern, responsive, highly interactive web applications. Passionate about learning new technologies.",
+    "summary3": "I also manage to make some time for Painting, Playing the Guitar, Traveling, Baking cakes, Reading some nice books.",
+    "backend": [
+      "Java",
+      " C# "
+    ],
+    "bframeworks": [
+      "Spring",
+      " Hibernate",
+      " Entity Framework "
+    ],
+    "frontend": [
+      "JavaScript",
+      " HTML",
+      " CSS"
+    ],
+    "fframeworks": [
+      "Angular",
+      " Bootstrap",
+      " AngularJS",
+      " JQuery"
+    ],
+    "dbskills": [
+      "MySQL",
+      " MSSQL"
+    ],
+    "versioncontrol": [
+      "GitHub ",
+      " GitLab",
+      " Visual Studio TFS"
+    ],
+    "apps": [
+      "Eclipse",
+      " Netbeans",
+      " VS Code",
+      " Visual Studio 2015/2017",
+      " Adobe Photoshop",
+      " Adobe Illustrator"
+    ],
+    "other": [
+      "JUnit",
+      " Apache Maven",
+      " Apache Tomcat",
+      " Microsoft IIS",
+      " Wordpress",
+      " XAMPP",
+      " WAMP"
+    ],
+    "profileimage": "/src/assets/images/IMG_8504.png",
+    "cvlink": "https://www.dropbox.com/s/1sl1sx0wg5hecba/Angela%20Amarapala%20-%20FullStack%20Developer.pdf?dl=0"
+  }
+]
