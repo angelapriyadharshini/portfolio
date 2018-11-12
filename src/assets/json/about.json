@@ -1,5 +1,4 @@
-[
-  {
+{
     "firstname": "Angela",
     "lastname": "Amarapala",
     "title": "Full Stack Developer",
@@ -60,7 +59,6 @@
       " XAMPP",
       " WAMP"
     ],
-    "profileimage": "/src/assets/images/IMG_8504.png",
+    "profileimage": "./assets/images/IMG_8504.png",
     "cvlink": "https://www.dropbox.com/s/1sl1sx0wg5hecba/Angela%20Amarapala%20-%20FullStack%20Developer.pdf?dl=0"
   }
-]

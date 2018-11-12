@@ -1,7 +1,7 @@
 <nav>
   <ul>
     <li [ngClass]="{'active': homeActive.isActive}">
-      <a routerLink="home" routerLinkActive="activated" #homeActive="routerLinkActive"><img class="home li-icon" height="30" width="30" src="/src/assets/images/home.png"></a>
+      <a routerLink="home" routerLinkActive="activated" #homeActive="routerLinkActive"><img class="home li-icon" height="30" width="30" src="./assets/images/home.png"></a>
     </li>
     <li class="main-menu" [ngClass]="{'active': aboutActive.isActive}">
       <a routerLink="about" routerLinkActive="activated" [routerLinkActiveOptions]="{exact:
@@ -18,10 +18,10 @@
     </li>
   </ul>
   <ul class="bottom-nav">
-    <li><a routerLink="codepen" target="_blank" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="/src/assets/images/codepen.png"></a></li>
-    <li><a routerLink="github" target="_blank" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="/src/assets/images/github.png"></a></li>
-    <li><a routerLink="linkedin" target="_blank" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="/src/assets/images/linkedin.png"></a></li>
-    <li><a routerLink="stackoverflow" target="_blank" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="/src/assets/images/stackoverflow.png"></a></li>
-    <li><a routerLink="twitter" target="_blank" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="/src/assets/images/twitter.png"></a></li>
+    <li><a routerLink="codepen" target="_blank" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="./assets/images/codepen.png"></a></li>
+    <li><a routerLink="github" target="_blank" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="./assets/images/github.png"></a></li>
+    <li><a routerLink="linkedin" target="_blank" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="./assets/images/linkedin.png"></a></li>
+    <li><a routerLink="stackoverflow" target="_blank" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="./assets/images/stackoverflow.png"></a></li>
+    <li><a routerLink="twitter" target="_blank" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="./assets/images/twitter.png"></a></li>
   </ul>
 </nav>
