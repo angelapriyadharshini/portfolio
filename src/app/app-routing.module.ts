@@ -25,7 +25,7 @@ const routes: Routes = [
     canActivate: [BlogComponent],
     component: BlogComponent,
     data: {
-      externalUrl: "https://medium.com/"
+      externalUrl: "https://medium.com/@apdharshi"
     }
   },
   {
