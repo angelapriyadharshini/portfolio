@@ -7,7 +7,7 @@ import { AboutService, IAbout } from 'src/app/services/about-service/about.servi
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  about: IAbout[] = [];
+  about: any = [];
 
   constructor(private aboutService: AboutService, private renderer: Renderer2, private elRef: ElementRef) { }
   canvas: HTMLElement;
