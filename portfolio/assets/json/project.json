@@ -13,8 +13,8 @@
         "CSS3",
         "Tomcat 9"
       ],
-      "image": "/src/assets/images/no-image-placeholder.png",
-      "url": "/src/assets/images/no-image-placeholder.png"
+      "image": "./assets/images/no-image-placeholder.png",
+      "url": "./assets/images/no-image-placeholder.png"
     },
     {
       "id": "2",
@@ -26,7 +26,7 @@
         "HTML",
         "JavaScript"
       ],
-      "image": "/src/assets/images/portfolio-image.png",
+      "image": "./assets/images/portfolio-image.png",
       "url": "https://github.com/angelapriyadharshini/portfolio"
     },
     {
@@ -42,7 +42,7 @@
         "nostrud",
         "incididunt"
       ],
-      "image": "/src/assets/images/no-image-placeholder.png",
-      "url": "/src/assets/images/no-image-placeholder.png"
+      "image": "./assets/images/no-image-placeholder.png",
+      "url": "./assets/images/no-image-placeholder.png"
     }
   ]
