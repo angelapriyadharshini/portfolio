@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef, Renderer2 } from '@angular/core';
-import { AboutService, IAbout } from 'src/app/services/about-service/about.service';
+import { AboutService } from 'src/app/services/about-service/about.service';
 
 @Component({
   selector: 'app-home',

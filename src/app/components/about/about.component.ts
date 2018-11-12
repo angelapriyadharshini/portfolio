@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AboutService, IAbout } from '../../services/about-service/about.service';
+import { AboutService } from '../../services/about-service/about.service';
 
 @Component({
   selector: 'app-about',
@@ -7,8 +7,7 @@ import { AboutService, IAbout } from '../../services/about-service/about.service
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-  about: IAbout[] = [];
-
+  about: any = [];
 
   constructor(private aboutService: AboutService ) { }
 
