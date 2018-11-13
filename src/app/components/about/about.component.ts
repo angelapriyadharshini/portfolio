@@ -8,12 +8,14 @@ import { AboutService } from '../../services/about-service/about.service';
 })
 export class AboutComponent implements OnInit {
   about: any = [];
+  picture:any;
 
   constructor(private aboutService: AboutService ) { }
 
   ngOnInit() {
     this.aboutService.getAbout().subscribe(data => {
       this.about = data;
+      this.picture = data.profileimage;
       console.log(this.about['firstname']);
     });
   }
