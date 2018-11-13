@@ -16,7 +16,6 @@ export class AboutComponent implements OnInit {
     this.aboutService.getAbout().subscribe(data => {
       this.about = data;
       this.picture = data.profileimage;
-      console.log(this.about['firstname']);
     });
   }
 
