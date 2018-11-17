@@ -10,7 +10,7 @@
       " Tomcat",
       " MySQL"
     ],
-    "summary1": "Hello! I am Angela Amarapala, a Graduate FullStack developer with 3 years of coding experience.",
+    "summary1": "Hello! I am Angela Amarapala, a Graduate FullStack developer with over 3 years of coding experience.",
     "summary2": "Focused on creating modern, responsive, highly interactive web applications. Passionate about learning new technologies.",
     "summary3": "I also manage to make some time for Painting, Playing the Guitar, Traveling, Baking cakes, Reading some nice books.",
     "backend": [
@@ -20,6 +20,7 @@
     "bframeworks": [
       "Spring",
       " Hibernate",
+      " ASP.Net MVC",
       " Entity Framework "
     ],
     "frontend": [
@@ -35,7 +36,7 @@
     ],
     "dbskills": [
       "MySQL",
-      " MSSQL"
+      " MS-SQL"
     ],
     "versioncontrol": [
       "GitHub ",
