@@ -1,7 +1,7 @@
 {
     "firstname": "Angela",
     "lastname": "Amarapala",
-    "title": "Full Stack Developer",
+    "title": "Software Engineer",
     "stack": [
       "Java",
       " Spring Boot",
@@ -10,9 +10,9 @@
       " Tomcat",
       " MySQL"
     ],
-    "summary1": "Hello! I am Angela Amarapala, a Graduate FullStack developer with over 3 years of coding experience.",
+    "summary1": "I am Angela Amarapala, a Graduate Software Engineer with over 3 years of coding experience.",
     "summary2": "Focused on creating modern, responsive, highly interactive web applications. Passionate about learning new technologies.",
-    "summary3": "I also manage to make some time for Painting, Playing the Guitar, Traveling, Baking cakes, Reading some nice books.",
+    "summary3": "I also manage to make some time for painting, traveling, baking cakes and reading some nice books.",
     "backend": [
       "Java",
       " C# "
@@ -52,14 +52,12 @@
       " Adobe Illustrator"
     ],
     "other": [
-      "JUnit",
       " Apache Maven",
       " Apache Tomcat",
       " Microsoft IIS",
       " Wordpress",
-      " XAMPP",
-      " WAMP"
+      " XAMPP"
     ],
-    "profileimage": "./assets/images/IMG_8504.png",
+    "profileimage": "./assets/images/Profile-img.png",
     "cvlink": "https://www.dropbox.com/s/5f0f5e83vw7htfb/Angela%20Amarapala%20-%20Full%20Stack%20Developer.pdf?dl=0"
   }
