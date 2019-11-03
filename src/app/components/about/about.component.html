@@ -8,18 +8,16 @@
           <h1 class="name">{{about.firstname}} {{about.lastname}}</h1>
           <h2 class="" style="margin:0;padding-bottom: 20px">{{about.title}}</h2>
           <div class="hrline"></div>
-          <h2 class="">Favorite stack: &nbsp;</h2> <h2 class="stack">{{about.stack}}</h2>
+          <h2 class="">Favorite stack: &nbsp;</h2>
+          <h2 class="stack">{{about.stack}}</h2>
         </div>
       </div>
     </li>
     <li>
       <div class="dark-card">
-        <ul class="link-box">
-          <li><a routerLink="../codepen" target="_blank" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="./assets/images/codepen.png"></a></li>
-          <li><a routerLink="../github" target="_blank" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="./assets/images/github.png"></a></li>
-          <li><a routerLink="../linkedin" target="_blank" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="./assets/images/linkedin.png"></a></li>
-          <li><a routerLink="../stackoverflow" target="_blank" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="./assets/images/stackoverflow.png"></a></li>
-          <li><a routerLink="../twitter" target="_blank" routerLinkActive="activated"><img class="li-icon" height="30" width="30" src="./assets/images/twitter.png"></a></li>
+        <ul class="link-box" *ngFor="let logo of logos">
+          <li><a routerLink="{{'../' + logo}}" target="_blank" routerLinkActive="activated"><img class="li-icon"
+                height="30" width="30" src="{{imagePrefix + logo + imageExt}}"></a></li>
         </ul>
       </div>
     </li>
@@ -33,25 +31,25 @@
     <li>
       <div class="skill-card">
         <ul class="link-box skills">
-          <h2 class="skill-title" >Back End</h2>
+          <h2 class="skill-title">Back End</h2>
           <li class="skill"><span>{{about.backend}} &nbsp;</span></li>
           <li class="skill"><strong>Frameworks: </strong>{{about.bframeworks}}</li>
-          <h2 class="skill-title" >Front End</h2>
+          <h2 class="skill-title">Front End</h2>
           <li class="skill"><span>{{about.frontend}} &nbsp;</span></li>
           <li class="skill"><strong>Frameworks: </strong>{{about.fframeworks}}</li>
-          <h2 class="skill-title" >Database</h2>
+          <h2 class="skill-title">Database</h2>
           <li class="skill"><span>{{about.dbskills}} &nbsp;</span></li>
         </ul>
         <ul class="link-box skills">
-            <h2 class="skill-title" >Version Control</h2>
-            <li class="skill"><span>{{about.versioncontrol}} &nbsp;</span></li>
-            <!-- <li class="skill"><strong>Frameworks: </strong>{{about.bframeworks}}</li> -->
-            <h2 class="skill-title" >Applications</h2>
-            <li class="skill"><span>{{about.apps}} &nbsp;</span></li>
-            <!-- <li class="skill"><strong>Frameworks: </strong>{{about.fframeworks}}</li> -->
-            <h2 class="skill-title" >Other</h2>
-            <li class="skill"><span>{{about.other}} &nbsp;</span></li>
-          </ul>
+          <h2 class="skill-title">Version Control</h2>
+          <li class="skill"><span>{{about.versioncontrol}} &nbsp;</span></li>
+          <!-- <li class="skill"><strong>Frameworks: </strong>{{about.bframeworks}}</li> -->
+          <h2 class="skill-title">Applications</h2>
+          <li class="skill"><span>{{about.apps}} &nbsp;</span></li>
+          <!-- <li class="skill"><strong>Frameworks: </strong>{{about.fframeworks}}</li> -->
+          <h2 class="skill-title">Other</h2>
+          <li class="skill"><span>{{about.other}} &nbsp;</span></li>
+        </ul>
       </div>
     </li>
     <li>
