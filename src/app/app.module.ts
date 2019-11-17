@@ -13,6 +13,8 @@ import { BlogComponent } from './components/blog/blog.component';
 import { ProjectService } from './services/project-service/project.service';
 import { HttpClientModule } from '@angular/common/http';
 import { AboutService } from './services/about-service/about.service';
+import { ProfileContentComponent } from './components/profile-content/profile-content.component';
+import { ProfileFooterComponent } from './components/profile-footer/profile-footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { AboutService } from './services/about-service/about.service';
     AboutComponent,
     ProjectsComponent,
     ContactComponent,
-    BlogComponent
+    BlogComponent,
+    ProfileContentComponent,
+    ProfileFooterComponent
   ],
   imports: [
     BrowserModule,
