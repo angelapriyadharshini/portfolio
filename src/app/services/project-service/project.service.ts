@@ -7,7 +7,7 @@ export interface IProject {
   title: string;
   description: string;
   tags: string[];
-  image?: string;
+  logo?: string;
   url: string;
 }
 

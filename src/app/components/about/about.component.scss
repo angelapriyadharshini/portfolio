@@ -28,7 +28,7 @@ $titlefont: "Open Sans Condensed", sans-serif;
   border-radius: 50%;
   shape-outside: ellipse();
   float: left;
-  margin: 0 15px 10px 0;
+  margin: 0 20px 0 0;
 }
 
 .profile-image-container {
@@ -38,50 +38,33 @@ $titlefont: "Open Sans Condensed", sans-serif;
   shape-outside: ellipse();
   float: left;
   position: absolute;
-  margin: 0 15px 10px 0;
   background-color: rgba(0, 0, 0, 0.2);
 }
 
 .content-body {
-  overflow-y: auto;
-  box-sizing: border-box;
   padding: 30px !important;
-  border-radius: 3px;
-  margin: 100px;
-  position: relative;
+  margin: 100px 135px;
   color: #f5f5f5;
 }
 
 .profile-box {
   width: 100%;
-  // padding: 30px 0;
-  // max-height: calc(346px - 60px);
-  // height: calc(346px - 60px);
+  display: flex;
+}
+
+.profile-1 {
+  width: calc(85% - 30px);
+  height: 155px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 50px 70px;
+  background-color: rgba(0, 0, 0, 0.14);
+  -webkit-filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.5));
   filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.5));
 }
 
-// .layer {
-//     background-color: rgba(248, 247, 216, 0.7);
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-// }
-
-.profile-1 {
-  width: calc(40% - 30px);
-  display: inline-block;
-  height: 300px;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
-  padding: 50px 28px;
-  background-color: rgba(0, 0, 0, 0.14);
-}
 .profile-2 {
-  padding: 0 30px;
-  width: calc(60% - 45px);
-  display: inline-block;
-  position: absolute;
-  // color: #2B2532;
+  width: calc(15% - 30px);
 }
 
 .name {
@@ -100,7 +83,6 @@ $titlefont: "Open Sans Condensed", sans-serif;
 .hrline {
   border-top: solid 1px #2b2532;
   width: 100%;
-  // padding-bottom: 30px;
 }
 
 .dark-card {
@@ -108,13 +90,11 @@ $titlefont: "Open Sans Condensed", sans-serif;
 }
 
 .link-box {
-  // display: inline-block;
   text-align: center;
   width: 100%;
   li {
     display: inline-block;
     padding: 20px 5px;
-    // background: rgba(255,255,255,0.2);
     a {
       vertical-align: middle;
       display: flex;
@@ -173,5 +153,4 @@ $titlefont: "Open Sans Condensed", sans-serif;
 
 .btn-cv:hover {
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-  //0 2px 10px rgba(0, 0, 0, 0.3);
 }
