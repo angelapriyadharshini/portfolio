@@ -9,22 +9,45 @@ import { GlobalConstants } from 'src/app/global.constants';
 })
 export class AboutComponent implements OnInit {
 
+  name: string;
   imagePrefix: string;
   imageExt: string;
   logos: string[] = [];
   about: any = [];
   picture: any;
+  skills: any;
 
   constructor(private aboutService: AboutService) { }
 
   ngOnInit() {
-    this.aboutService.getAbout().subscribe(data => {
+    this.aboutService.getAbout().subscribe((data: About) => {
       this.about = data;
-      this.picture = data.profileimage;
       this.imagePrefix = './assets/images/';
       this.imageExt = '.png';
       this.logos = GlobalConstants.ABOUT_PAGE.LOGOS;
-      console.log(this.logos);
+      this.breakDownSkills();
+      // console.log(data.skillStack);
     });
   }
+
+  breakDownSkills() {
+    const skillStack = this.about.skillStack;
+    const skills = [];
+    Object.keys(skillStack).forEach(function(obj) {
+      skillStack[obj].forEach(element => {
+        skills.push(element.trim());
+      });
+    });
+    console.log(skills);
+  }
+
+}
+
+export interface About {
+  firstName: string;
+  lastName: string;
+  title: string;
+  summary: string;
+  profileimageUrl: string;
+  skillStack: any;
 }
