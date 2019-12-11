@@ -3,18 +3,18 @@
     "id": "1",
     "title": "Stack Overflow",
     "url": "https://stackoverflow.com/users/6284797/angela-amarapala?tab=profile",
-    "logo": "/assets/images/stackoverflow.png"
+    "logo": "./assets/images/stackoverflow.png"
   },
   {
     "id": "2",
     "title": "GitHub",
     "url": "https://github.com/angelapriyadharshini",
-    "logo": "/assets/images/github.png"
+    "logo": "./assets/images/github.png"
   },
   {
     "id": "3",
     "title": "Codepen",
     "url": "https://codepen.io/apdharshini",
-    "logo": "/assets/images/codepen.png"
+    "logo": "./assets/images/codepen.png"
   }
 ]
