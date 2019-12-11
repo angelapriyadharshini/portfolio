@@ -25,20 +25,17 @@ export class AboutComponent implements OnInit {
       this.imagePrefix = './assets/images/';
       this.imageExt = '.png';
       this.logos = GlobalConstants.ABOUT_PAGE.LOGOS;
-      this.breakDownSkills();
-      // console.log(data.skillStack);
     });
   }
 
   breakDownSkills() {
     const skillStack = this.about.skillStack;
     const skills = [];
-    Object.keys(skillStack).forEach(function(obj) {
+    Object.keys(skillStack).forEach(function (obj) {
       skillStack[obj].forEach(element => {
         skills.push(element.trim());
       });
     });
-    console.log(skills);
   }
 
 }
@@ -49,5 +46,5 @@ export interface About {
   title: string;
   summary: string;
   profileimageUrl: string;
-  skillStack: any;
+  skillStack?: any;
 }

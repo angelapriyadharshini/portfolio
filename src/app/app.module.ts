@@ -9,7 +9,6 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
-import { BlogComponent } from './components/blog/blog.component';
 import { ProjectService } from './services/project-service/project.service';
 import { HttpClientModule } from '@angular/common/http';
 import { AboutService } from './services/about-service/about.service';
@@ -24,7 +23,6 @@ import { ProfileFooterComponent } from './components/profile-footer/profile-foot
     AboutComponent,
     ProjectsComponent,
     ContactComponent,
-    BlogComponent,
     ProfileContentComponent,
     ProfileFooterComponent
   ],
@@ -34,7 +32,7 @@ import { ProfileFooterComponent } from './components/profile-footer/profile-foot
     BrowserAnimationsModule,
     HttpClientModule
   ],
-  providers: [BlogComponent, ProjectService, AboutService],
+  providers: [ProjectService, AboutService],
   bootstrap: [AppComponent]
 })
 

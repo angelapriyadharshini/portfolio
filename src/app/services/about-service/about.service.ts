@@ -11,7 +11,7 @@ export class AboutService {
 
   constructor(private http: HttpClient) {
     this.getAbout().subscribe(data => {
-      // console.log(data);
+      console.log(data);
     });
   }
 

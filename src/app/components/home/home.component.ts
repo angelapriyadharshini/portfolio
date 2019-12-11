@@ -21,12 +21,8 @@ export class HomeComponent implements OnInit {
 
   constructor(private aboutService: AboutService, private renderer: Renderer2, private elRef: ElementRef) { }
 
-  // @ViewChild('content') content: ElementRef;
-
   ngOnInit() {
     this.getAboutData();
-    // this.genarateAnimationElements();
-    // this.generateAnimation();
   }
 
   genarateAnimationElements() {
