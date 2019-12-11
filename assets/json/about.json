@@ -1,57 +1,7 @@
 {
     "firstName": "Angela",
     "lastName": "Amarapala",
-    "skillStack": {
-      "backEnd": [
-        "Java",
-        " C# "
-      ],
-      "backEndFrameworks": [
-        "Spring",
-        "Hibernate",
-        "ASP.Net MVC",
-        " Entity Framework "
-      ],
-      "frontEnd": [
-        "JavaScript",
-        " HTML  ",
-        " CSS"
-      ],
-      "frontEndFrameworks": [
-        "Angular",
-        " Bootstrap",
-        " AngularJS",
-        " JQuery"
-      ],
-      "dbSkills": [
-        "MySQL",
-        " MS-SQL"
-      ],
-      "versionControl": [
-        "GitHub ",
-        " GitLab",
-        " Visual Studio TFS"
-      ],
-      "apps": [
-        "Eclipse",
-        " Netbeans",
-        " VS Code",
-        " Visual Studio 2015/2017",
-        " Adobe Photoshop",
-        " Adobe Illustrator"
-      ],
-      "other": [
-        " Apache Maven",
-        " Apache Tomcat",
-        " Microsoft IIS",
-        " Wordpress",
-        " XAMPP"
-      ]
-    },
     "summary": "A Full stack developer with a passion and focus on front end development. Always looking for better ways to build modern web applications using reliable design patterns, best practices, and the latest tools. A collaborator who enjoys investing in others and is always eager to learn. Driven to create intuitive web applications that yield excellent user experiences. With more than 3 years of experience, currently a senior software engineer at Virtusa (Pvt) Ltd.",
-    "summary1": "I am Angela Amarapala, a Graduate Software Engineer with over 3 years of coding experience.",
-    "summary2": "Focused on creating modern, responsive, highly interactive web applications. Passionate about learning new technologies.",
-    "summary3": "I also manage to make some time for painting, traveling, baking cakes and reading some nice books.",
     "profileimageUrl": "./assets/images/profile-image.JPG",
     "cvlink": "https://www.dropbox.com/s/2xs55xyjn6n4s72/Angela%20Amarapala%20-%20Software%20Engineer.pdf?dl=0"
   }
