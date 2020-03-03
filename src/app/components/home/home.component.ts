@@ -11,6 +11,7 @@ import { About } from '../about/about.component';
 export class HomeComponent implements OnInit {
 
   title: string = GlobalConstants.TITLE;
+  logoPath = './assets/images/HisGraceDesignsLogo.jpg';
   dotWidth: number;
   dotHeight: number;
   dotPositionX: number;
