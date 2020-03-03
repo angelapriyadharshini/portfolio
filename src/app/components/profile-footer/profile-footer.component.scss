@@ -1,6 +1,6 @@
 .content-body {
   background: #f5f5f5;
-  padding: 10px 160px !important;
+  padding: 10px 160px;
 }
 
 .built-with {
@@ -30,4 +30,15 @@
     width: 30px;
     height: 30px;
     padding-bottom: 2px;
+}
+
+@media screen and (max-width: 680px) {
+    .content-body {
+        background: #f5f5f5;
+        padding: 10px;
+        text-align: center;
+    }
+    .professional-logo-link {
+        padding: 0;
+    }
 }

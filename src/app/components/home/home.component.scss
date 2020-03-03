@@ -16,6 +16,24 @@ body,
   position: absolute;
 }
 
+.logo {
+  padding: 20px;
+}
+
+// .slogan-wrapper {
+//   display: table;
+//   position: absolute;
+//   height: calc(100%);
+//   width: 100%;
+//   margin-bottom: 50px;
+// }
+
+// .slogan-box {
+//   display: table-cell;
+//   vertical-align: middle;
+//   margin-bottom: 50px;
+// }
+
 .home-title {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 300;
@@ -24,12 +42,12 @@ body,
   color: #3a2a87;
 }
 .slogan-wrapper {
-  display: table;
-  position: absolute;
-  height: calc(100%);
-  width: 100%;
-  margin-bottom: 50px;
+  display: flex;
+    justify-content: center;
+    margin: 200px 0;
 }
+
+
 
 @mixin slogan {
   text-align: center;
@@ -86,10 +104,10 @@ body,
 }
 
 .content {
-  height: calc(100vh - 50px);
-  width: calc(100vw);
-  position: relative;
-  z-index: 10;
+  height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 10;
 }
 
 .dot-animation-1 {
@@ -135,4 +153,44 @@ body,
   to {
     transform: rotate(360deg) translateX(150px) translateZ(0) rotate(-360deg);
   }
+}
+
+@media screen and (max-width: 680px) {
+  .logo {
+    padding: 0 20px;
+    display: inline-flex;
+    height: 100%;
+  }
+  .content {
+    height: 100%;
+    width: auto;
+    position: relative;
+    z-index: 10;
+    padding: 20px 0;
+}
+#content-middle {
+  display: flex;
+}
+.slogan-wrapper {
+  display: inline-flex;
+  margin: auto;
+}
+.slogan-box {
+  display: table-cell;
+  margin: auto;
+}
+.align-slogan {
+  text-align: left;
+  width: 700px;
+  padding: 20px 0 0 0;
+  text-transform: uppercase;
+}
+.tag-style {
+  font-family: "Architects Daughter", cursive;
+  font-size: 1.5em;
+}
+.home-title {
+  font-size: 2em;
+  padding: 0px 10px 10px !important;
+}
 }
