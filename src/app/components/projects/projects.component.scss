@@ -1,40 +1,40 @@
 .work-content {
-    float: right;
+  float: right;
 }
 
 .work-section {
-    padding: 8px;
+  padding: 8px;
 }
 
 .work-logo-cover {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background: #261f56;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #261f56;
 }
 
 .project {
-    list-style-type: none;
-    width: auto;
-    display: inline-block;
+  list-style-type: none;
+  width: auto;
+  display: inline-block;
 }
 
 .project-logo {
-    width: 55px;
-    padding: 5px;
-    border: inset;
-    border-radius: 50%;
-    border-bottom: 1px solid #f5f5f5;
-    border-left: 1px solid #261f56;
-    border-right: 1px solid #f5f5f5;
-    border-top: 1px solid #261f56;
+  width: 55px;
+  padding: 5px;
+  border: inset;
+  border-radius: 50%;
+  border-bottom: 1px solid #f5f5f5;
+  border-left: 1px solid #261f56;
+  border-right: 1px solid #f5f5f5;
+  border-top: 1px solid #261f56;
 }
 
-@media screen and (max-width: 680px) {
-    .work-content {
-        float: none;
+@media screen and (max-width: 1280px) {
+  .work-content {
+    float: none;
     display: flex;
     justify-content: center;
     padding: 20px 0;
-    }
+  }
 }
